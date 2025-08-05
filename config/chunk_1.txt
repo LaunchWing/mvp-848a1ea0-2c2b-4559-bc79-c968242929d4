@@ -1,0 +1,22 @@
+{
+  "name": "resumecraft-ai",
+  "version": "1.0.0",
+  "description": "Craft the Perfect Resume in Seconds with AI",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:site && npm run build:functions",
+    "build:site": "vite build",
+    "build:functions": "wrangler publish",
+    "dev": "wrangler dev",
+    "start": "wrangler pages dev ./public"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20230804.0",
+    "vite": "^4.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

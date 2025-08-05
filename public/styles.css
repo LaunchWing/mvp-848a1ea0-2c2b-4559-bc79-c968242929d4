@@ -1,0 +1,16 @@
+/* Custom styles for ResumeCraft AI */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    border-bottom: 2px solid #F5A623;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+footer {
+    border-top: 2px solid #F5A623;
+}

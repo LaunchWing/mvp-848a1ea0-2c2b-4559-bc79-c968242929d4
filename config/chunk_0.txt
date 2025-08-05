@@ -1,0 +1,17 @@
+name = "resumecraft-ai"
+type = "javascript"
+
+account_id = "your-cloudflare-account-id"
+workers_dev = true
+compatibility_date = "2023-10-01"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
+
+[env.production]
+route = "resumecraftai.example.com/*"
+zone_id = "your-zone-id"
+
+[build]
+command = "npm run build"
